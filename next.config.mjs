@@ -10,10 +10,20 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'raw.githubusercontent.com', // domaine des images PokéAPI
-        pathname: '/**', // autorise tous les chemins
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/**',
       },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: '/about',
+        destination:
+          'https://api.farcaster.xyz/miniapps/hosted-manifest/0198b546-324e-6bae-4898-564254ac393f',
+        permanent: true,
+      },
+    ]
   },
 }
 
