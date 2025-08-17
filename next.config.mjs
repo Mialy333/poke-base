@@ -23,6 +23,14 @@ const nextConfig = {
           'https://api.farcaster.xyz/miniapps/hosted-manifest/0198b546-324e-6bae-4898-564254ac393f',
         permanent: true,
       },
+      {
+        // Farcaster Hosted Manifest: temporary redirect (307)
+        source: '/.well-known/farcaster.json',
+        destination:
+          'https://api.farcaster.xyz/miniapps/hosted-manifest/0198b546-324e-6bae-4898-564254ac393f',
+        permanent: false,
+        statusCode: 307,
+      },
     ]
   },
 }
