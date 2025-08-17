@@ -1,5 +1,25 @@
 {
+  "frame": {
+    "name": "Pokebase",
+    "version": "1",
+    "iconUrl": "https://poke-base-tan.vercel.app/icon.png",
+    "homeUrl": "https://poke-base-tan.vercel.app",
+    "imageUrl": "https://poke-base-tan.vercel.app/image.png",
+    "splashImageUrl": "https://poke-base-tan.vercel.app/splash.png",
+    "splashBackgroundColor": "#4c2882",
+    "webhookUrl": "https://poke-base-tan.vercel.app/api/webhook",
+    "subtitle": "Vote for your favorite pokemon",
+    "description": "Very simple. Choose your favorite Pokemon. Vote. Get your badge NFT",
+    "primaryCategory": "games"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExMzc5MDUsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgzQTIzMzE5NERhMmRmZUNhYzVCN2FENjNkMTA4MTU4MTcyNkIzMzVCIn0",
+    "payload": "eyJkb21haW4iOiJodHRwcyJ9",
+    "signature": "skAc04mDJoOb74j/OywhfvggZ7zfyVFpw16b4FXFg85dYAH6qsE7aK0WF36Hzx0qzMjhXqdTJFdiAiWYBwAyTBw="
+  },
   "baseBuilder": {
+    "name": "poke-base",
+    "url": "https://poke-base-tan.vercel.app",
     "allowedAddresses": ["0x7D8E32841a9cb336E3f5Ef5Fd7dCB6440aF07476"]
   }
 }
